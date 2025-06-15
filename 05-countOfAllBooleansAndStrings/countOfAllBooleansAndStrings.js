@@ -5,9 +5,8 @@ function countOfAllBooleansAndStrings(arr) {
     if (typeof values === "boolean" || typeof values === "string") {
       count++;
     }
-    return
-  })
-  return count
+  });
+  return count;
 }
 
 // Do not edit this line;
