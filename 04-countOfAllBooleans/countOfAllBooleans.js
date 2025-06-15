@@ -5,10 +5,9 @@ function countOfAllBooleans(arr) {
     if (typeof values === "boolean") {
       count++
     }
-    return
   })
 
-  return count
+  return count;
 }
 
 // Do not edit this line;
