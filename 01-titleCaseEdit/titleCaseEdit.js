@@ -1,6 +1,6 @@
 function titleCaseEdit(title) {
   // Insert code here;
-  return title.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toUpperCase()
+  return title.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()
   )
     .join(' ');
 }
