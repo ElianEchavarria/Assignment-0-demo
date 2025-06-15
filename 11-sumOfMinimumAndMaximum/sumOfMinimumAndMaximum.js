@@ -2,14 +2,15 @@ function sumOfMinimumAndMaximum(nums) {
   // Insert code here;
   let min = nums[0];
   let max = nums[0];
+
   nums.forEach((values) => {
-    if (value < min) {
-      min = value;
+    if (values < min) {
+      min = values;
     }
-    if (value > max) {
-      max = value;
+    if (values > max) {
+      max = values;
     }
-  })
+  });
 
   return min + max;
 }
