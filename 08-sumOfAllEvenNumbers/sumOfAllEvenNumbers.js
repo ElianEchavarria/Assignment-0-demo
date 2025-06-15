@@ -1,13 +1,14 @@
 function sumOfAllEvenNumbers(nums) {
   // Insert code here;
-  let sum = 0;
+  let count = 0;
 
-  nums.forEach((values) => {
-    if (values % 2 === 0) {
-      sum += values;
+  nums.forEach((value) => {
+    if (value % 2 === 0) {
+      count++;
     }
-  })
-  return sum;
+  });
+
+  return count;
 }
 
 // Do not edit this line;
